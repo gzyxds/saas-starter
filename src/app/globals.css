@@ -13,20 +13,20 @@
     --foreground: 0 0% 13%; /* Primary text color #212121 */
     --foreground-dark: 0 0% 100%; /* Dark theme foreground color #FFFFFF */
     /* Theme color variables */
-    --primary: 260 51% 48%; /* Primary color #673AB7 */
-    --primary-dark: 257 59% 60%; /* Dark primary #512DA8 */
+    --primary: 217 99% 50%; /* Primary color #015bfe */
+    --primary-dark: 217 99% 40%; /* Dark primary #014bbf */
     --primary-foreground: 0 0% 100%; /* Text/icon color #FFFFFF */
     --primary-foreground-dark: 0 0% 100%; /* Dark theme text/icon color */
-    --secondary: 257 44% 85%; /* Light primary #D1C4E9 */
-    --secondary-dark: 240 3.7% 15.9%; /* Dark theme secondary */
-    --secondary-foreground: 0 0% 13%; /* Primary text on secondary */
+    --secondary: 217 99% 92%; /* Light primary #e6f0fe */
+    --secondary-dark: 217 30% 20%; /* Dark theme secondary #23314a */
+    --secondary-foreground: 217 99% 30%; /* Primary text on secondary #014bbf */
     --secondary-foreground-dark: 0 0% 98%; /* Dark theme secondary text */
     --muted: 0 0% 96%; /* Light muted background */
     --muted-dark: 240 3.7% 15.9%; /* Dark theme muted */
     --muted-foreground: 0 0% 46%; /* Secondary text #757575 */
     --muted-foreground-dark: 0 0% 65%; /* Dark theme muted text */
-    --accent: 257 100% 65%; /* Accent color #7C4DFF */
-    --accent-dark: 257 100% 65%; /* Dark theme accent */
+    --accent: 217 99% 60%; /* Accent color #338cff */
+    --accent-dark: 217 99% 60%; /* Dark theme accent */
     --accent-foreground: 0 0% 100%; /* Accent text color */
     --accent-foreground-dark: 0 0% 100%; /* Dark theme accent text */
     --destructive: 0 84.2% 60.2%; /* Default destructive color */
@@ -35,8 +35,8 @@
     --border-dark: 240 3.7% 36.5%; /* Dark theme border color */
     --input: 0 0% 90%; /* Input border color */
     --input-dark: 240 3.7% 15.9%; /* Dark theme input color */
-    --ring: 260 51% 48%; /* Focus ring color */
-    --ring-dark: 257 59% 42%; /* Dark theme ring color */
+    --ring: 217 99% 50%; /* Focus ring color */
+    --ring-dark: 217 99% 40%; /* Dark theme ring color */
     --radius: 0.5rem; /* Default border radius */
     --popover-background: 0 0% 100%; /* Popover background color */
     --popover-background-dark: 240 3.7% 15.9%; /* Dark theme popover background color */
@@ -72,22 +72,22 @@
 
 /* Custom Gradient Backgrounds */
 .gradient-bg {
-  background: linear-gradient(135deg, #673AB7 0%, #512DA8 100%);
+  background: linear-gradient(135deg, #015bfe 0%, #014bbf 100%);
 }
 
 .gradient-bg-light {
-  background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+  background: linear-gradient(135deg, #e6f0fe 0%, #b3d1fc 100%);
 }
 
 .gradient-bg-dark {
-  background: linear-gradient(135deg, #4527a0 0%, #311b92 100%);
+  background: linear-gradient(135deg, #014bbf 0%, #012a6c 100%);
 }
 
 /* Grid Pattern Background */
 .bg-grid-pattern {
   background-image: 
-    linear-gradient(rgba(103, 58, 183, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(103, 58, 183, 0.1) 1px, transparent 1px);
+    linear-gradient(rgba(1, 91, 254, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(1, 91, 254, 0.1) 1px, transparent 1px);
   background-size: 50px 50px;
   background-position: 0 0, 0 0;
 }
@@ -169,13 +169,13 @@
 
 /* Custom Button Styles */
 .btn-gradient {
-  background: linear-gradient(135deg, #673AB7 0%, #512DA8 100%);
+  background: linear-gradient(135deg, #015bfe 0%, #014bbf 100%);
   transition: all 0.3s ease;
 }
 
 .btn-gradient:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(103, 58, 183, 0.3);
+  box-shadow: 0 10px 25px rgba(1, 91, 254, 0.3);
 }
 
 /* Content Sections */
